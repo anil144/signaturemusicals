@@ -13,15 +13,16 @@
 	 body{
           margin: 0px;
           margin-bottom: 5px;
+          padding: 30px;
 
         }
           #header,#tagline{
-          background-image: url(image/image3.jpeg);
+         /* background-image: url(image/image3.jpeg);*/
           background-repeat: no-repeat;
           color: white;
           padding: 100px;
           text-align: center;
-          min-height: 630px;
+          min-height: 400px;
           padding-top: 300px;
         }
          .one, .two,#header{
@@ -32,23 +33,28 @@
   background-repeat: no-repeat;
 
   background-attachment: fixed; 
+  background-color: #3D4040     ;
       }
-    	  
+
+      h1 , p{
+        color: white;
+    	  }
      .one{
      
-    background-image: url(image/image2.jpeg);
+    /*background-image: url(image/image2.jpeg);*/
     padding: 0px;
     margin: 0px;
-    background-color: white;
-    min-height: 630px;
+    background-color: #998F8D  ;
+    min-height: 400px;
+    
 
   }
 
   .two{
   	
-    background-image: url(image/image5.jpeg);
-    background-color: white;
-    min-height: 630px;
+    /*background-image: url(image/image5.jpeg);*/
+    background-color: #7F8587  ;
+    min-height: 400px;
 
   }
   .two h1{
@@ -56,13 +62,7 @@
   	margin: 0px;
   	color: white;
   }
-  .two img{
-  	height: 500px;
-  	width: 250px;
-  	margin-top: 20px;
-  	padding-left: 10px;
-  	margin-left: 15px;
-  }
+  
   #imgright{
     float: right;
     
@@ -87,7 +87,7 @@
   #aboutus{
   	text-align: center;
   	margin: 0px;
-  	color: white;
+  	color: black;
   	font-size: 32px;
   }
 
@@ -152,51 +152,148 @@
 
 /*footer style end.........................*/
  
+    .navbar{
+      list-style-type:none;
+      background-color: black;
+      color: white;
+      font-size: 20px; 
+      padding-left: 25%; 
 
- 
+    }
+    .navbar li{
+      float: left;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-right: 1px solid white;
+      margin-right: 5px;
+      padding-right: 5px;
+    }
 
+    .brandlogo img{
+        
+        float: left;
+        padding: 0px;
+
+    }
+    .about{
+      box-sizing: content-box;
+      border: 1px solid black;
+      margin-left: 20px;
+      margin-top: 20px;
+      position: absolute;
+      background-color: #787170   ;
+      min-height: 300px;
+      min-width: 600px;
+      padding: 20px;
+      
+
+    }
+    .about p{
+      font-size: 20px;
+      color: black;
+      padding-top: 10px;
+    }
+    .quality{
+    box-sizing: content-box;
+      border: 1px solid black;
+      margin-left: 580px;
+      margin-right: 20px;
+      margin-top: 20px;
+      position: absolute;
+      background-color: #787170     ;
+      min-height: 300px;
+      min-width: 400px;
+      padding: 20px;
+      
+
+    }
+     .quality p{
+      padding-top: 10px;
+      font-size: 20px;
+      color: black;
+     }
+     .products{
+      box-sizing: content-box;
+      position: absolute;
+      border: 2px solid black;
+      min-height: 360px;
+      min-width: 400px;
+      margin: 20px;
+       background-color: #787170   ;
+     }
+     .products p{
+      font-size: 20px;
+      padding-top: 20px;
+      margin-left: 10px;
+      
+     }
+     .productimg{
+       box-sizing: content-box;
+      position: absolute;
+      min-height: 360px;
+      min-width: 360px;
+      margin-left: 400px;
+      border: 2PX solid black;
+      margin-top: 20px;
+      margin-right: 20px;
+      padding-right: 70px ;
+      padding-left: 35px ;
+       background-color: #787170   ;
+     }
+   .productimg img{
+    height: 260px;
+    width: 250px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 15px;
+  }
+  .imgbox1{
+    box-sizing: border-box;
+      position: relative;
+      float: left;
+     height: 280px;
+    width: 250px;
+    background-color: #787170
+  }
+  .imgbox1 p{
+    text-align: center;
+  }
+  .imgbox1 a{
+    color: white;
+
+  }
+  .two h1{
+    padding-top: 20px;
+  }
 
 </style>
 
 </head>
 <body>
+
+  <div class="navbar" navbar-inverse navbar-fixed-top" role="navigation">
+  <nav>
+     <div class="brandlogo">
+    <a href=""><img height="50px" src="image/logo1.png"></a>
+  </div>
+    <li><a href="">HOME</a></li>
+    <li><a href="#1">ABOUT US</a></li>
+    <li><a href="#2">PRODUCTS</a></li>
+    <li><a href="">CONTACT US</a></li>
+  </nav>
+</div>
+
+    
+
 	 <div id="header">
         <h1>signature musicals</h1>
         
         	<h3>Music for souls</h3>
     </div>
 
+ 
 
-<!-- navigation -->
 
-	 <nav class="navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img alt="Brand"  src="image/logo1.png" ></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-       
-        <li><a href="#">Home</a></li>
-         <li><a href="#1">About <span class="sr-only">(current)</span></a></li>
-        <li><a href="#2">Products</a></li>
-         <li><a href="#3">Contact Us</a></li>
-        
-      </ul>
-     
-     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
 
 
@@ -206,26 +303,52 @@
 		<div class="one">
       <!--
   <img id="imgright" height="630px" width="500px" src="image/image2.jpeg"> -->
-  		<h2 id="aboutus">About us</h2>
-  	<section id="textleft">
-    <p>We were earlier known as Gogos Musicals, prides itself in being one  </p>
-    <p>of the premier manufacturers ofMusic Instruments,especially guitars.</p>
-    <p>Guitars made in India, for India!</p>
-    <p>To know more About US <a href="About.html">click here</a> </p>
+  	
+     <div class="about">
+      <h2 id="aboutus">About us</h2>
+       <p>We were earlier known as Gogos Musicals,<br> prides itself in being one of the premier manufacturers<br> of Music Instruments,especially guitars.<br>To know more About us <a href="">click here.</a></p>
+    </div> 
+    <div class="quality">
+      <h2 id="aboutus">Quality</h2>
+      <p>Our guitars are essentially made up of rosewood (Dalbergia) and mahogany (Toona Ciliata), the most suitable wood for the Indian sub-continent climate.
+    Guitars made in India, for India! <br>To know more about our Quality <a href="">click here</a></p>
+    </div>
+    
+    
      
 </div>
+
 	</div>
   
 <div id="2">
 	<div class="two">
-	<h1>products</h1>
+    <div class="products">
+      <h1>products</h1>
+     <p> we have wide range <br> of acoustic guitar collections with <br> Different size, shapes and colurs.<br>To See all our Products <a href="">click here</a></p>
+    </div>
+	<div class="productimg">
+   
+    
+    <div class="imgbox1">
+      <img id="imgleft"  src="image/image1.jpg" >
+      <p><a href="">Cream Series</a></p>
+    </div>
+     <div class="imgbox1">
+      <img id="imgleft"  src="image/image1.jpg" >
+      <p><a href="">Topaz Series</a></p>
+    </div>
+     <div class="imgbox1">
+      <img id="imgleft"  src="image/image1.jpg" >
+      <p><a href="">Jumbo Series</a></p>
+    </div>
   
-  	<img id="imgleft"  src="image/image1.jpg" >
-    <img id="imgleft"  src="image/image1.jpg">
-     <img id="imgleft"  src="image/image1.jpg">
-      <img id="imgleft"  src="image/image1.jpg">
-       <img id="imgleft"  src="image/image1.jpg">
-       <p style="color: white">For more Product Details  <a href="products.html">click here</a>  </p>
+      
+   
+  </div>
+  
+  	
+    
+      
 </div>
 </div>
 
