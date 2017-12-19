@@ -1,415 +1,404 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html>
+<head>
+
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>signature musicals</title>
+		<title>About Us</title>
 
-    <!--style.css-->
-   <style type="text/css">
-        body{
-          margin: 0px;
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--link to w3 css for manual slide!-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style type="text/css">
+		body{
+			margin: 0px;
           margin-bottom: 5px;
+          padding: 30px;
+           background-color: #172121  ;
+		}
+	.topheader{
+		box-sizing: content-box;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed; 
+		min-height: 2650px;
+		padding-top: 10px;
+		color: white;
+		margin-top: 30px;
+		background-color: #000 ;
 
-        }
+	}
+	.originality{
+		box-sizing:content-box;
+		position: absolute;
+		border:1px solid white;
+		margin-top: 1206px;
+		margin-left: 26px;
+		background-color: #393E3E;
+	}
+	.check{
+		box-sizing:content-box;
+		position: absolute;
+		border-right:1px solid white;
+		border-top:1px solid white;
+		margin-top: 1236px;
+		margin-left: 850px;
+		
+	}
+	.logo{
+		box-sizing:content-box;
+		position: absolute;
+		
+		border-left:1px solid white;
+		margin-top: 1454px;
+		margin-left: 130px;
+	}
+	.logo img{
+		padding-left: 10px;
+	}
+	.logodetail{
+		box-sizing:content-box;
+		position: absolute;
+		margin-left: 701px;
+		border:1px solid white;
+		margin-top: 1452px;
+		min-width: 570px;
+		background-color: #393E3E;
+	}
+	.logodetail p{
+		font-size: 16px;
+	}
+	.trademark{
+		box-sizing:content-box;
+		position: absolute;
+		border:1px solid white;
+		margin-top: 1618px;
+		margin-left: 28px;
+		background-color: #393E3E;
+	}
+	.packaging p{
+		font-size: 16px;
+	}
+	.packaging{
+		box-sizing:content-box;
+		position: absolute;
+		margin-left: 701px;
+		border:1px solid white;
+		margin-top: 1864px;
+		min-width: 570px;
+		background-color: #393E3E;
+	}
+	.hologram{
+		box-sizing:content-box;
+		position: absolute;
+		border:1px solid white;
+		margin-top: 2102px;
+		margin-left: 28px;
+		min-width: 672px;
+		background-color: #393E3E;
+	}
+	.hologram p{
+		font-size: 16px;
+	}
+	.authenticity{
+			box-sizing:content-box;
+		position: absolute;
+		border:1px solid white;
+		margin-top: 2345px;
+		margin-left: 28px;
+		margin-right: 50px;
+	}
+	.authenticity p{
+		font-size: 16px;
+		padding-left: 5px;
+	}
+	.authenticity h1{
+		text-align: center;
+	}
+	.quality{
+		box-sizing:content-box;
+		position: absolute;
+		border:1px solid white;
+		margin-top: 301px;
+		margin-left: 701px;
+		background-color: #393E3E;
 
-        #header{
-          background-image: url('image/git1.jpg');
-          background-repeat: no-repeat;
-          color: white;
-          padding: 100px;
-          text-align: center;
-          min-height: 700px;
-          padding-top: 300px;
-        }
+	}
+	.wood{
+		box-sizing:content-box;
+		position: absolute;
+		border-bottom:1px solid white;
+		border-left:1px solid white;
+		margin-top: 301px;
+		margin-left: 130px;
+	}
+	.pickup{
+		box-sizing:content-box;
+		position: absolute;
+		margin-top: 600px;
+		border:1px solid white;
+		margin-left: 20px;
+		background-color: #393E3E;
+	}
+	.pickup p{
+		font-size: 16px;
+	}
 
-      .one, .two, .three, .four,.five,.six,.seven,.eight,#header{
-        position: relative;
-  opacity: 1;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+	
 
-  background-attachment: fixed; 
-      }
-   .one{
-    background-image: url(image/git3.jpeg);
-    padding: 0px;
-    margin: 0px;
-    background-color: blue;
-    min-height: 500px;
-
-  }
-
-  .two{
-    background-image: url(image/git4.jpeg);
-    background-color: green;
-    min-height: 800px;
-
-  }
-
-  .three{
-    background-image: url(image/git2.jpg);
-    background-color: red;
-    min-height: 500px;
-
-  }
-
-  .four{
-    background-image: url(image/git5.jpeg);
-    background-color: yellow;
-    min-height: 500px;
-
-  }
-
-  .five{
-    background-image: url(image/git1.jpg);
-    background-color: grey;
-    min-height: 500px;
-
-  }
-
-  .six{
-    background-image: url(image/git2.jpg);
-    background-color: violet;
-    min-height: 500px;
-
-  }
-
-  .seven{
-    background-image: url(image/git3.jpeg);
-    background-color: pink;
-    min-height: 500px;
-
-  }
-
-  .eight{
-    background-image: url(image/git4.jpeg);
-    background-color: purple;
-    min-height: 500px;
-
-  }
-
-  #footer{
-    background-color: black;
-    margin: 2px;
-    min-height: 100px;
-  }
-
-  #imgright{
-    float: right;
-    
-  }
-  #imgleft{
-    float: left;
-    
-  }
-
-  #textleft{
-    float: left;
-    color: white;
-
-  }
-
-  #textright{
-    float: right;
-    color: white;
-
-  }
-
- /*footer...................................style*/
-    .footer{
-      background-color: black;
-      position: relative;
-      color: white;
-      overflow: hidden;
-      padding: 0px;
-      margin: 0px;
-
+	
+	  .about{
+    	box-sizing: content-box;
+    	position: absolute;
+    	background-color: #393E3E;
+    	min-height: 250px;
+    	margin-top: 50px;
+    	margin-left: 20px;
+    	border:1px solid white;
     }
-    #fone{
-      position: relative;
-      padding-left: 10px;
-      margin-left: 5%;
-      margin-top: 15px;
-    }
-    #fone p{
-      float: left;  
-    }
-    #fone img{
-      height: 30px;
-      width: 30px;
-      margin-top: 15px;
-      padding-left: ;
-    }
-    
-    }
-    #h41{
-      margin-left: 20px;
-    }
-    #h42{
-      margin-left: 20px;
-    }
-    #p1{
-      
-      padding-left: 10px;
-      border-right: 2px solid white;
-      padding-right: 10px;
-    }
-    #p2{
-      float: center;
-      
-      border-right: 2px solid white;
-      padding-right: 10px;
-      
-    }
-    #socialimage img{
-      
-      height: 30px;
-      width: 30px;
-      padding-left: 10px;
-      float: left;
-      margin-top: 18px;
-      margin-left: 20px;
-    }
-    #contact{
-      margin-left: 20%;
-    }
+     .about p {
+     	font-size: 16px;
+     }
+
+     .who{
+     	box-sizing: content-box;
+    	position: absolute;
+    	min-height: 250px;
+    	margin-top: 50px;
+    	margin-left: 800px;
+    	border-top:1px solid white;
+    	border-right:1px solid white;
+     }
+/*footer...................................style*/
+		.footer{
+			background-color: black;
+			position: relative;
+			color: white;
+			overflow: hidden;
+			padding: 0px;
+			margin: 0px;
+			border:1px solid white;
+
+		}
+		#fone{
+			position: relative;
+			padding-left: 1px;
+			margin-left: 10px;
+			margin-top: 15px;
+		}
+		#fone p{
+			float: left;	
+		}
+		#fone img{
+			height: 30px;
+			width: 30px;
+			margin-top: 15px;
+			padding-left: ;
+		}
+		
+		}
+		#h41{
+			margin-left: 20px;
+		}
+		#h42{
+			margin-left: 20px;
+		}
+		#p1{
+			
+			padding-left: 10px;
+			border-right: 2px solid white;
+			padding-right: 10px;
+		}
+		#p2{
+			float: center;
+			
+			border-right: 2px solid white;
+			padding-right: 10px;
+			
+		}
+		#socialimage img{
+			
+			height: 30px;
+			width: 30px;
+			padding-left: 5px;
+			float: left;
+			margin-top: 18px;
+			margin-left: 10px;
+		}
+		#contact{
+			margin-left: 20%;
+		}
 
 /*footer style end.........................*/
+		 .navbar{
+      list-style-type:none;
+      background-color: black;
+      color: white;
+      font-size: 20px; 
+      padding-left: 25%; 
 
+    }
+    .navbar li{
+      float: left;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-right: 1px solid white;
+      margin-right: 5px;
+      padding-right: 5px;
+    }
 
-   </style>
+    .brandlogo img{
+        
+        float: left;
+        padding: 0px;
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-    <div id="header">
-        <h1>signature musicals</h1>
-    </div>
-
-
-    <nav class="navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img alt="Brand"  src="image/logo1.png"></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-       
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown,active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About  <span class="sr-only ">(current)</span> </a>
-          <ul class="dropdown-menu">
-            <li><a href="#sec3">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-        <li><a href="products.html">Products</a></li>
-         <li><a href="#fone">Contact Us<span class="sr-only"></span></a></li>
-      </ul>
-     
-     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<div class="one">
-  <img id="imgright" height="500px" width="300px" src="image/git2.jpg">
-      <section id="textleft">
-    <h2>Signature musicals</h2>
-    <p>We were earlier known as Gogos Musicals, prides itself in being one of the premier manufacturers of Music Instruments,especially guitars.</p>
-    <p>Since generations, we have been involved in making  premium guitars that are at par with any American brand available to the masses in India.</p>
-    <p>Our guitars are essentially made up of rosewood (Dalbergia) and mahogany (Toona Ciliata), the most suitable wood for the Indian sub-continent climate.</p>
-    <p>Guitars made in India, for India!</p>
-     
-  </section>
-</div>
+    }
   
+</style>
 
 
-<div class="two">
-  <img id="imgleft" height="800px" width="300px" src="image/git2.jpg">
-      <section id="textright">
-    <h2>Quality</h2>
-    <h4>Wood And String Quality</h4>
-    <p>Dalbergia, also known by the names Sheesham wood and Indian Rosewood is the penultimate quality of wood bested only by the pure Brazilian Rosewood </p>
-    <p>which is a tad warmer than the former. They sound slightly different, but both just as good and although they are found in totally different geographies, there </p>
-    <p>has been no equal for the sweet sound of the Dalbergia in south-east Asia and India.</p>
-    <p>The genus Toona Ciliata, commonly known as the red cedar, is native to India and is used for high-grade export-quality musical instruments. It is considered </p>
-    <p>to be of a grade higher than its siblings such as the Toona Sinensis found in China, Toona Sureni found in Indonesia and Toona Calantis found in the </p>
-    <p>archipelago of Philippines. It is considered at par with the Cuban Cedrela Odorata and the Mexican Guarea Grandifolia, which are considered to be </p>
-    <p>paramount in quality for the manufacturing of musical instruments.</p>
-    <p>The wood used in our guitar making is derived from the direct strain that was initially planted as a plantation crop in Hawaii in 1918 using seeds from </p>
-    <p>Australia and has since become naturalized. Such quality is peerless in the entire Indian sub-continent and is sought-after by guitar enthusiasts not only </p>
-    <p>in India but worldwide.</p>
-    <p>Classical guitar strings are typically nylon, with the basses being wound with either silver or bronze (with phosphor) . Electric guitar strings are usually </p>
-    <p>wound with nickel plated steel; pure nickel and stainless steel are also used. Bass guitar strings are most commonly wound with stainless steel or nickel. </p>
-    <p>wound with nickel plated steel; pure nickel and stainless steel are also used. Bass guitar strings are most commonly wound with stainless steel or nickel. </p>
-    <p>On the other hand, strings on the Signature Musicals guitars are made up of a metal that is treated electrochemically such that it possesses the strength of </p>
-    <p>cryogenically frozen strings, which seems to lengthen their lifespan without diminishing the tone or sustain metal. The string gauge is optimal for guitar </p>
-      <p>playing so that they retain their strength even when played for longer periods of time. This is especially useful for beginners as they are more likely to break the </p>
-      <P>strings while practicing and playing.</P>
-  </section>
+
+
+
+</head>
+<body>
+
+	 <div class="navbar" navbar-inverse navbar-fixed-top" role="navigation">
+  <nav>
+     <div class="brandlogo">
+    <a href="index.html"><img height="50px" src="image/logo1.png"></a>
+  </div>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="">ABOUT US</a></li>
+    <li><a href="Products.html">PRODUCTS</a></li>
+    <li><a href="contact.html">CONTACT US</a></li>
+  </nav>
 </div>
-  
 
-<div class="three">
-  <img id="imgright" height="500px" width="300px" src="image/git2.jpg">
 
-    <section id="textleft">
-    <h2>guitar pickup</h2>
-    <P>A guitar pickup device is a transducer (specifically, a variable reluctance sensor) that captures or senses mechanical vibrations produced by stringed </P>
-    <P>instruments such such as the guitar and converts them to an electrical signal that is amplified using an instrument amplifier to produce musical sounds </P>
-    <P>through a loudspeaker in a speaker enclosure. Most newbie enthusiasts are unaware that semi-acoustic does not mean that a guitar is anything less than </P>
-    <P>an acoustic one. In fact, it is simply an acoustic guitar fixed with a pickup device. Every Signature Musicals guitar comes with a passive pickup which you </P>
-    <P>can connect to either an amplifier or a speaker. We also supply active pickups on request.</P>
-    <P>This functionality is absent in copycat and fake products sold by dubious sellers.</P>
-      
-  </section>
+
+<!--main content-->
+
+<div class="topheader">
+
+		<div class="about">
+		 <h2>Who We Are</h2>
+    <p>We were earlier known as Gogos Musicals, prides itself in being one of the premier<br> manufacturers of Music Instruments,especially guitars.
+    Since generations, we have <br> been involved in making  premium guitarsthat are at par with any American brand <br> available to the masses in India.
+    Our guitars are essentially made up of<br> rosewood (Dalbergia) and mahogany (Toona Ciliata), the most suitable wood for the<br> Indian sub-continent climate.
+    Guitars made in India, for India!</p>
+	</div>
+
+
+
+	<div class="who">
+		<h1>Signature Musicals </h1>
+	<h1>who we are? <br>What we make?<br>and How It makes us<br>Different From Others</h1>
+	</div>
+	
+		<div class="wood">
+			<h1>We Use Best Wood<br> Suitable for Indian<br> Weather Conditions<br> For Best Performance<br> all the Time.</h1>
+		</div>
+
+		<div class="pickup">
+			<h1>GUITAR PICKUP</h1>
+			<p>A guitar pickup device is a transducer (specifically, a variable<br> reluctance sensor) that captures or senses mechanical vibrations produced by<br> stringed instruments such such as the guitar and converts them<br> to an electrical signal that is amplified using an instrument<br> amplifier to produce musical sounds through a loudspeaker in a<br> speaker enclosure. Most newbie enthusiasts are unaware that semi-acoustic<br> does not mean that a guitar is anything less<br> than an acoustic one. In fact, it is simply an <br>acoustic guitar fixed with a pickup device. Every Signature Musicals guitar<br> comes with a passive pickup which you can connect to <br>either an amplifier or a speaker. We also supply<br> active pickups on request.
+			This functionality is absent in copycat<br> and fake products sold by dubious sellers.</p>
+		</div>
+
+<div class="quality">
+
+	<div class="qualitybox">
+		<h1>QUALITY</h1>
+	<h2>WOOD AND STRING QUALITY</h2>
+	<p>Dalbergia, also known by the names Sheesham wood and Indian Rosewood<br> is the penultimate quality of wood bested only by the pure<br> Brazilian Rosewood which is a tad warmer than the former.<br> They sound slightly different, but both just as good<br> and although they are found in totally different geographies,<br> there has been no equal for the sweet sound of<br> the Dalbergia in south-east Asia and India.<br>
+
+The genus Toona Ciliata, commonly known as the red cedar,<br> is native to India and is used for high-grade<br> export-quality musical instruments. It is considered to be of<br> a grade higher than its siblings such as the<br> Toona Sinensis found in China, Toona Sureni found in Indonesia<br> and Toona Calantis found in the archipelago of Philippines.<br> It is considered at par with the Cuban Cedrela Odorata<br> and the Mexican Guarea Grandifolia, which are considered to be paramount<br> in quality for the manufacturing of musical instruments.<br>
+
+The wood used in our guitar making is derived from<br> the direct strain that was initially planted as a plantation crop<br> in Hawaii in 1918 using seeds from Australia and has<br> since become naturalized. Such quality is peerless in the entire<br> Indian sub-continent and is sought-after by guitar enthusiasts<br> not only in India but worldwide.<br>
+
+Classical guitar strings are typically nylon, with the basses being<br> wound with either silver or bronze (with phosphor) . Electric guitar strings<br> are usually wound with nickel plated steel; pure nickel<br> and stainless steel are also used. Bass guitar strings are<br> most commonly wound with stainless steel or nickel.<br> On the other hand, strings on the Signature Musicals guitars<br> are made up of a metal that is treated electrochemically<br> such that it possesses the strength of cryogenically frozen strings,<br> which seems to lengthen their lifespan without diminishing the tone<br> or sustain metal. The string gauge is optimal for guitar playing<br> so that they retain their strength even when played for<br> longer periods of time. This is especially useful for beginners<br> as they are more likely to break the strings<br> while practicing and playing.</p>
+	</div>
 </div>
-  
+	<div class="originality">
+		<h1>ORIGINALITY</h1>
+		<p>Gogos Musicals has struggled in the past few years for making a stronghold in the Indian<br> market because of the several other guitar manufacturers and importers who deal with<br> low-quality sub-standard guitars imported from China. Going by fancy Chinese names<br> such as Xing or names sounding like the duplicates of large American franchises such as<br> Hofner, Gibson, Fender and Ibanez, these doppelgangers have managed to make good<br> sales despite the lack in product quality and after-sales service. In addition, there are<br> several sellers on leading retail and e-commerce websites that try to sell copies of<br> Signature guitars that lack the finesse and longevity that original products offer.</p>
+	</div>
 
-<div class="four">
-  <img id="imgleft" height="500px" width="300px" src="image/git2.jpg">
-  <section id="textright">
-    <h2>originality</h2>
-    <P>Gogos Musicals has struggled in the past few years for making a stronghold in the Indian market because of the several other guitar manufacturers and </P>
-     <P>importers who deal with low-quality sub-standard guitars imported from China. Going by fancy Chinese names such as Xing or names sounding like the </P>
-      <P>importers who deal with low-quality sub-standard guitars imported from China. Going by fancy Chinese names such as Xing or names sounding like the </P>
-      <P>lack in product quality and after-sales service. In addition, there are several sellers on leading retail and e-commerce websites that try to sell copies of </P>
-      <P>Signature guitars that lack the finesse and longevity that original products offer.</P>
-      <P>How do you differentiate between an original Signature Musicals guitar from a fake?</P>
-      <H4>THE SIGNATURE LOGO</H4>
-      <p>Each Signature Guitar has the original Signature Logo etched on it.</p>
-      <img src="image/logo1.png">
-      <p>Notice how the name is Signature, unlike some other fake brands who change the name slightly to Signatare or Signatre while keeping the font same.</p>
-  </section>
+	<div class="check">
+		<h1>Check our <br>logo,trademark no.,<br>Name, Hologram<br> To Avoid Duplicate<br> Products </h1>
+	</div>
+
+	<div class="logo">
+		<h1>Our Logo</h1>
+		<img src="image/logotilt.png">
+	</div>
+	<div class="logodetail">
+		<h1>THE SIGNATURE LOGO</h1>
+		<p>Each Signature Guitar has the original Signature Logo etched on it.<br>Notice how the name is Signature, unlike <br>some other fake brands who change the name slightly <br>to Signatare or Signatre while keeping the font same.</p>
+	</div>
+	<div class="trademark">
+		<h1>TRADEMARK NUMBER</h1>
+		<p>Visit the Indian Public Trademark Search website and search for the wordmark Signature<br> with class 15 that stands for Musical Instruments. You’ll find that the trademark<br> application number 757427 is attributed to SUBHASISH BISWAS, Proprietor of<br> MB,SIGNATURE, which in fact is Signature Musicals.This trademark number is<br> etched just below the Signature logo<br> with the words Regd. Trade Mark No. Here, the word trademark is split<br> into two words trade and mark on purpose to dissuade copycats who might<br> use the word trademark as a whole instead.</p>
+	</div>
+	<div class="packaging">
+		<h1>PACKAGING</h1>
+		<p>All Signature Musicals products are packed with the utmost precision<br> and care. The guitar is packed and placed in the accompanying free<br> gig cover.A wooden scaffold is built around this cover. to ensure that<br> the guitar is well-supported even under pressure.The cardboard box <br>around the guitar scaffold is waterproof and ensures that product<br> shipments sent during the rainy season are devoid of any possible <br>moisture on the inside.</p>
+	</div>
+	<div class="hologram">
+		<h1>HOLOGRAM</h1>
+		<p>Our guitars since April 2016 have a hologram on them that displays our logo and<br> trademark number 757427. If you have purchased a guitar post April 2016 and it<br> does not have a hologram, then chances are that you have been sold a duplicate<br> guitar or a guitar from our old stock. We have made certain modifications and<br> improved the quality of the guitar over the years and the models from April 2016<br> onward are currently the best in quality. Please ensure that your guitar has a<br> hologram on it.</p>
+	</div>
+	<div class="authenticity">
+		<h1>PRODUCT </h1>
+		<h1>AUTHENTICITY</h1>
+		<p>Always ensure that you purchase the musicals instruments sold my the original manufacturer and seller Signature Musicals (Gogos Musicals) on<br> Amazon. You will find that a number of sellers compete in terms of price by adding themselves to the original listings but shipping fake and duplicate products. Do not purchase our guitars on Flipkart, Snapdeal or other online portals as they are most definitely old outdated stock that isn’t supported<br> or fake duplicate products of questionable quality. Sellers such as Economically Musical, Nag, M M Nag, R Music, etc. have over the years sold guitars<br> of dubious quality and we will not be responsible for any support for these products as they are not our own. We are already in the process of pursuing legal action against these sellers and have also informed top portals such as Amazon, Flipkart and Snapdeal but they keep coming up under different names. Please do not buy duplicate products.</p>
+	</div>
 </div>
-  
 
-<div class="five">
-  <img id="imgright" height="500px" width="300px" src="image/git2.jpg">
-    <section id="textleft">
-    <h2>trademark no.</h2>
-    <p>Visit the Indian Public Trademark Search website and search for the wordmark Signature with class 15 that stands for Musical Instruments. You’ll find that the </p>
-    <p>trademark application number 757427 is attributed to SUBHASISH BISWAS, Proprietor of MB,SIGNATURE, which in fact is Signature Musicals.</p>
-    <p>This trademark number is etched just below the Signature logo with the words Regd. Trade Mark No. Here, the word trademark is split into two words trade and </p>
-    <p>mark on purpose to dissuade copycats who might use the word trademark as a whole instead.</p>
-      
-  </section>
-
-</div>
-  
-
-<div class="six">
-  <img id="imgleft" height="500px" width="300px" src="image/package.jpg">
-      <section id="textright">
-    <h2>packaging</h2>
-    <p>All Signature Musicals products are packed with the utmost precision and care. The guitar is packed and placed in the accompanying free gig cover.</p>
-    <p>A wooden scaffold is built around this cover. to ensure that the guitar is well-supported even under pressure.</p>
-    <p>The cardboard box around the guitar scaffold is waterproof and ensures that product shipments sent during the rainy season are devoid of any possible </p>
-    <p>moisture on the inside.</p>
-     
-  </section>
-</div>
- 
-
-<div class="seven">
-  <img id="imgright" height="500px" width="300px" src="image/git2.jpg">
-
-      <section id="textleft">
-    <h2>hologram</h2>
-    <p>Our guitars since April 2016 have a hologram on them that displays our logo and trademark number 757427. If you have purchased a guitar post April 2016 </p>
-    <p>and it does not have a hologram, then chances are that you have been sold a duplicate guitar or a guitar from our old stock. We have made certain </p>
-    <p>modifications and improved the quality of the guitar over the years and the models from April 2016 onward are currently the best in quality. Please ensure </p>
-    <p>that your guitar has a hologram on it.</p>
-     
-  </section>
-</div>
-  
-
-<div class="eight">
-  <img id="imgleft" height="500px" width="300px" src="image/git2.jpg">
-      <section id="textright">
-    <h2>PRODUCT AUTHENTICITY</h2>
-    <p>Always ensure that you purchase the musicals instruments sold my the original manufacturer and seller Signature Musicals (Gogos Musicals) on Amazon. </p>
-    <p>You will find that a number of sellers compete in terms of price by adding themselves to the original listings but shipping fake and duplicate products. </p><p>Do not purchase our guitars on Flipkart, Snapdeal or other online portals as they are most definitely old outdated stock that isn’t supported or fake </p>
-    <p>duplicate products of questionable quality. Sellers such as Economically Musical, Nag, M M Nag, R Music, etc. have over the years sold guitars of dubious </p><p>quality and we will not be responsible for any support for these products as they are not our own. We are already in the process of pursuing legal action </p><p>against these sellers and have also informed top portals such as Amazon, Flipkart and Snapdeal but they keep coming up under different names. Please </p>
-    <p>do not buy duplicate products.</p>
-     
-  </section>
-</div>
 
 
 
 <!--footer.................................................!-->
 <div class="footer">
-  <div id="fone">
-    <div id="email">
-    <p>Email us:</p>
-    <p id="p1">support@signaturemusicals.com<br>signaturegogo@gmail.com <br></p>
-  </div>
-  <div id="contact">    
-        <p >Contact Us:</p>
-    <p id="p2"> +91 &nbsp 9830282866 <br>+91&nbsp 9051717444<br>+91&nbsp 9850076979</p>   
-  </div>
+	<div id="fone">
+		<div id="email">
+		<p>Email us:</p>
+		<p id="p1">support@signaturemusicals.com<br>signaturegogo@gmail.com <br></p>
+	</div>
+	<div id="contact">		
+				<p >Contact Us:</p>
+		<p id="p2"> +91 &nbsp 9830282866 <br>+91&nbsp 9051717444<br>+91&nbsp 9850076979</p>		
+	</div>
 
-  <div id="visit">    
-        <p >Visit Us:</p>
-    <p id="p2">Gogos Musicals, 1/5 Karthik C. Ghosh Lane <br>Belur, Howrah,<br>India – 711201</p>   
-  </div>
-
-
+	<div id="visit">		
+				<p >Visit Us:</p>
+		<p id="p2">Gogos Musicals, 1/5 Karthik C. Ghosh Lane <br>Belur, Howrah,<br>India – 711201</p>		
+	</div>
 
 
-  <div id="social">
-    <p>Social Links:</p>
-    <div id="socialimage">
-      <img src="image/fb.png">
-    <img src="image/twit.png">
-    <img src="image/insta.png">
-    
-    <img src="image/gplus.png">
-    
-    </div>
-    
-  </div>
-  </div>
+
+
+	<div id="social">
+		<p>Social Links:</p>
+		<div id="socialimage">
+      <a href="#"><img src="image/fb.png"></a>
+			
+		  <a href="#"><img src="image/twit.png"></a>
+		  <a href="#"><img src="image/insta.png"></a>
+		  <a href="#"><img src="image/gplus.png"></a>
+		
+		
+		</div>
+		
+	</div>
+	</div>
 </div>
 
 
 
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>

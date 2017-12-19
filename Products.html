@@ -12,8 +12,14 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style type="text/css">
+		body{
+			margin: 0px;
+          margin-bottom: 5px;
+          padding: 30px;
+           background-color: #172121  ;
+		}
 	.topheader{
-		background-image: url(image/git1.jpg);	
+		/*background-image: url(image/git1.jpg);*/	
 		position: relative;
 		opacity: 1;
 		background-position: center;
@@ -25,7 +31,7 @@
 		padding-top: 10px;
 		color: white;
 		margin-top: 30px;
-
+		background-color: #000;
 
 	}
 
@@ -40,33 +46,38 @@
 	}
 
 	.cream{
-		background-image: url(image/git6.jpeg);
-		min-height: 600px;
+		/*background-image: url(image/git6.jpeg);*/
+		min-height: 500px;
+		background-color: #000;
+
 
 	}
 
 	.topaz{
-		background-image: url(image/git5.jpeg);
-		min-height: 600px;
+		/*background-image: url(image/git5.jpeg);*/
+		min-height: 500px;
+		background-color: #001;
 
 	}
 
 	.jumbo{
-		background-image: url(image/git3.jpeg);
-		min-height: 600px;
+		/*background-image: url(image/git3.jpeg);*/
+		min-height: 500px;
+		background-color: #002;
 
 	}
 
 	.blade{
-		background-image: url(image/git4.jpeg);
-		min-height: 600px;
+		
+		min-height: 500px;
+		background-color: #003;
 
 	}
 
 	.special{
-		background-image: url(image/git5.jpeg);
-		min-height: 600px;
-
+		
+		min-height: 500px;
+		background-color: #494B4B;
 	}
 
 	
@@ -99,8 +110,7 @@
 		float: right;
 	}
 
-
-	/*footer...................................style*/
+/*footer...................................style*/
 		.footer{
 			background-color: black;
 			position: relative;
@@ -112,8 +122,8 @@
 		}
 		#fone{
 			position: relative;
-			padding-left: 10px;
-			margin-left: 5%;
+			padding-left: 1px;
+			margin-left: 10px;
 			margin-top: 15px;
 		}
 		#fone p{
@@ -150,17 +160,132 @@
 			
 			height: 30px;
 			width: 30px;
-			padding-left: 10px;
+			padding-left: 5px;
 			float: left;
 			margin-top: 18px;
-			margin-left: 20px;
+			margin-left: 10px;
 		}
 		#contact{
 			margin-left: 20%;
 		}
 
 /*footer style end.........................*/
+		 .navbar{
+      list-style-type:none;
+      background-color: black;
+      color: white;
+      font-size: 20px; 
+      padding-left: 25%; 
 
+    }
+    .navbar li{
+      float: left;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-right: 1px solid white;
+      margin-right: 5px;
+      padding-right: 5px;
+    }
+
+    .brandlogo img{
+        
+        float: left;
+        padding: 0px;
+
+    }
+    .creambox{
+    	box-sizing: border-box;
+    	border:1px solid white;
+    	background-color: #3B4141;
+    	min-height: 400px;
+    	min-width: 580px;
+    	position: absolute;
+    	margin-top: 20px;
+    	margin-left: 20px;
+    	border-right: 0px;
+
+    }
+     .creambox h2{
+     	text-align: center;
+     	padding-top: 0px;
+     }
+     .creamslidebox{
+     	box-sizing: content-box;
+    	border:1px solid white;
+    	background-color: #3B4141;
+    	min-height: 405px;
+    	min-width: 665px;
+    	position: absolute;
+    	margin-left: 600px;
+    	margin-top: 20px;
+    	border-left: 0px;
+
+
+     }
+     #slideimg{
+     	float: right;
+     }
+
+
+     .products{
+      box-sizing: content-box;
+      position: absolute;
+      border: 2px solid black;
+      min-height: 360px;
+      min-width: 400px;
+      margin: 20px;
+       background-color: #787170   ;
+     }
+     .products p{
+      font-size: 20px;
+      padding-top: 20px;
+      margin-left: 10px;
+      color: white;
+     }
+     .productimg{
+       box-sizing: content-box;
+      position: absolute;
+      min-height: 360px;
+      min-width: 360px;
+      margin-left: 400px;
+      border: 2PX solid black;
+      margin-top: 20px;
+      margin-right: 20px;
+      padding-right: 70px ;
+      padding-left: 35px ;
+       background-color: #787170   ;
+     }
+   .productimg img{
+    height: 260px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .imgbox1{
+    box-sizing: border-box;
+      position: relative;
+      float: left;
+     height: 300px;
+    width: 250px;
+    background-color: #000;
+    margin-top: 30px;
+  }
+  .imgbox1 p{
+    text-align: center;
+    color: white;
+  }
+  .imgbox1 a{
+    color: white;
+
+  }
+  .two h1{
+    padding-top: 20px;
+  }
+   .two h1{
+  	text-align: center;
+  	margin: 0px;
+  	color: white;
+  }
 </style>
 
 
@@ -170,45 +295,17 @@
 </head>
 <body>
 
-	 <nav class="navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img alt="Brand"  src="image/logo1.png"></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-       
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li class="dropdown,active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">products  <span class="sr-only ">(current)</span> </a>
-          <ul class="dropdown-menu">
-            <li><a href="#sec3">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-        
-         <li><a href="#fone">Contact Us<span class="sr-only"></span></a></li>
-      </ul>
-     
-     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	 <div class="navbar" navbar-inverse navbar-fixed-top" role="navigation">
+  <nav>
+     <div class="brandlogo">
+    <a href="index.html"><img height="50px" src="image/logo1.png"></a>
+  </div>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="About.html">ABOUT US</a></li>
+    <li><a href="">PRODUCTS</a></li>
+    <li><a href="contact.html">CONTACT US</a></li>
+  </nav>
+</div>
 
 
 
@@ -221,13 +318,14 @@
 
 <div class="cream">
 	<!--manual slide bar-->
-	<div class="manualslideright">
+	<div class="creamslidebox">
+		<div class="manualslideright">
 		<div class="w3-display-container">
   <div class="w3-content w3-display-container">
-  <img class="mySlides" src="image/git1.jpg" style="width:600px " height="600px">
-  <img class="mySlides" src="image/git2.jpg" style="width:600px" height="600px">
-  <img class="mySlides" src="image/git3.jpeg" style="width:600px" height="600px">
-  <img class="mySlides" src="image/git4.jpeg" style="width:600px" height="600px">
+  <img class="mySlides" src="image/git1.jpg" style="width:500px " height="400px" "margin-top: 20px;" >
+  <img class="mySlides" src="image/git2.jpg" style="width:500px" height="400px" "margin-top: 20px;">
+  <img class="mySlides" src="image/git3.jpeg" style="width:500px" height="400px" "margin-top: 20px;">
+  <img class="mySlides" src="image/git4.jpeg" style="width:500px" height="400px" "margin-top: 20px;">
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -255,7 +353,10 @@ function showDivs(n) {
 }
 </script>
 	</div>
-	<section id="textleft">
+	</div>
+
+		<div class="creambox">
+			<section id="textleft">
 		<h2>CREAM</h2>
 			<p >Back and Sides :TOne Wood</p>
 			<p >Neck: Tone Wood</p>
@@ -269,40 +370,109 @@ function showDivs(n) {
 			<p >Width:15.5"</p>
 			<p >breadth:9.5"</p>
 	</section>
+		</div>
 	
 </div>
 
 <div class="topaz">
 	<!--manual slide bar-->
-	
+	<div class="creamslidebox">
+		<img id="slideimg" height="400px" width="500px"  src="image/git1.jpg">
+	</div>
 
-	<section id="textright">
-		
+		<div class="creambox">
+			<section id="textleft">
+		<h2>TOPAZ</h2>
+			<p >Back and Sides :TOne Wood</p>
+			<p >Neck: Tone Wood</p>
+			<p >Finger Board: Rose Wood</p>
+			<p >Bridge: Rose Wood</p>
+			<p >MAchine Heads: Open Gear, Nickel</p>
+			<p >passice touch pickup</p>
+			<p >Finish: High Gloss</p>
+			<p >Size: 39"</p>
+			<p >length:40" </p>
+			<p >Width:15.5"</p>
+			<p >breadth:9.5"</p>
 	</section>
+		</div>
 	
 </div>
 <div class="jumbo">
-	<img id="modelimgright" height="500px" width="400px"  src="image/git2.jpg">
-	<section id="textleft">
-		<h2>Description</h2>
-			<p >this is an model of topaz guitar</p>
+	<div class="creamslidebox">
+		<img id="slideimg" height="400px" width="500px"  src="image/git1.jpg">
+	</div>
+
+		<div class="creambox">
+			<section id="textleft">
+		<h2>JUMBO</h2>
+			<p >Back and Sides :TOne Wood</p>
+			<p >Neck: Tone Wood</p>
+			<p >Finger Board: Rose Wood</p>
+			<p >Bridge: Rose Wood</p>
+			<p >MAchine Heads: Open Gear, Nickel</p>
+			<p >passice touch pickup</p>
+			<p >Finish: High Gloss</p>
+			<p >Size: 39"</p>
+			<p >length:40" </p>
+			<p >Width:15.5"</p>
+			<p >breadth:9.5"</p>
 	</section>
+		</div>
 	
 </div>
 <div class="blade">
-	<img id="modelimgleft" height="500px" width="400px"  src="image/git2.jpg">
-	<section id="textright">
-		<h2>Description</h2>
-			<p >this is an model of topaz guitar</p>
+	<div class="creamslidebox">
+		<img id="slideimg" height="400px" width="500px"  src="image/git1.jpg">
+	</div>
+
+		<div class="creambox">
+			<section id="textleft">
+		<h2>BLADE</h2>
+			<p >Back and Sides :TOne Wood</p>
+			<p >Neck: Tone Wood</p>
+			<p >Finger Board: Rose Wood</p>
+			<p >Bridge: Rose Wood</p>
+			<p >MAchine Heads: Open Gear, Nickel</p>
+			<p >passice touch pickup</p>
+			<p >Finish: High Gloss</p>
+			<p >Size: 39"</p>
+			<p >length:40" </p>
+			<p >Width:15.5"</p>
+			<p >breadth:9.5"</p>
 	</section>
+		</div>
 	
 </div>
 <div class="special">
-	<img id="modelimgright" height="500px" width="400px"  src="image/git2.jpg">
-	<section id="textleft">
-		<h2>Description</h2>
-			<p >this is an model of topaz guitar</p>
-	</section>
+	<div class="two">
+    <div class="products">
+      <h1>Limited Editions</h1>
+     <p> we have some range <br> of limited acoustic guitar collections<br> with  Different size, shapes<br> and colours.</p>
+    </div>
+	<div class="productimg">
+   
+    
+    <div class="imgbox1">
+      <div class="Creamtext" style= "display: none;">
+        <p>size:<br>body:<br></p>
+      </div>
+      
+      <img id="imgleft"  src="image/image1.jpg"  >
+      <p>BEATLES SERIES</p>
+    </div>
+     <div class="imgbox1">
+      <img id="imgleft"  src="image/image1.jpg" >
+      <p>CHE-GUEVARA</p>
+    </div>
+     <div class="imgbox1">
+      <img id="imgleft"  src="image/image1.jpg" >
+      <p>BABY SERIES</p>
+    </div>     
+   
+  </div>   
+      
+</div>
 	
 </div>
 
@@ -325,14 +495,18 @@ function showDivs(n) {
 		<p id="p2">Gogos Musicals, 1/5 Karthik C. Ghosh Lane <br>Belur, Howrah,<br>India – 711201</p>		
 	</div>
 
+
+
+
 	<div id="social">
 		<p>Social Links:</p>
 		<div id="socialimage">
-			<img src="image/fb.png">
-		<img src="image/twit.png">
-		<img src="image/insta.png">
+      <a href="#"><img src="image/fb.png"></a>
+			
+		  <a href="#"><img src="image/twit.png"></a>
+		  <a href="#"><img src="image/insta.png"></a>
+		  <a href="#"><img src="image/gplus.png"></a>
 		
-		<img src="image/gplus.png">
 		
 		</div>
 		
