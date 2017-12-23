@@ -8,6 +8,8 @@
 	<title>signature musicals</title>
 <!-- bootstarp-->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--link to w3 css for manual slide!-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!--stylecss!-->
 <style type="text/css">
 	 body{
@@ -20,10 +22,12 @@
          /* background-image: url(image/githead2.jpeg);*/
           background-repeat: no-repeat;
           color: white;
-          padding: 100px;
+         /* padding: 100px;*/
           text-align: center;
-          min-height: 400px;
-          padding-top: 300px;
+          min-height: 500px;
+         /* padding-top: 300px;*/
+         box-sizing: content-box;
+         border:1px solid white;
         }
          .one, .two,#header{
         position: relative;
@@ -44,7 +48,7 @@
     /*background-image: url(image/image2.jpeg);*/
     padding: 0px;
     margin: 0px;
-    background-color: #998F8D  ;
+    background-color: #000  ;
     min-height: 400px;
     
 
@@ -53,7 +57,7 @@
   .two{
   	
     /*background-image: url(image/image5.jpeg);*/
-    background-color: #7F8587  ;
+    background-color: #000  ;
     min-height: 400px;
 
   }
@@ -265,6 +269,15 @@
   .two h1{
     padding-top: 20px;
   }
+  #slidetop{
+     background-color: #000 ;
+     min-height: 500px;
+  }
+  .creamslidebox{
+    box-sizing: content-box;
+    padding: 0px;
+    border:1px solid white;
+  }
 
 </style>
 
@@ -285,10 +298,46 @@
 
     
 
-	 <div id="header">
-        <h1>signature musicals</h1>
+	 <div id="slidetop">
+       <!-- <h1>signature musicals</h1>
         
         	<h3>Music for souls</h3>
+          -->
+          <!--manual slide bar-->
+  <div class="creamslidebox">
+    <div class="manualslideright">
+    <div class="w3-display-container">
+  <div class="w3-content w3-display-container">
+  <img class="mySlides" src="image/image4.jpeg" style="width:1000px" height="400px" "margin-top: 20px;" >
+  <img class="mySlides" src="image/image15.jpeg" style="width:1000px" height="400px" "margin-top: 20px;">
+  <img class="mySlides" src="image/git5.jpeg" style="width:1000px" height="400px" "margin-top: 20px;">
+  <img class="mySlides" src="image/image20.jpeg" style="width:1000px" height="400px" "margin-top: 20px;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
     </div>
 
  
@@ -333,16 +382,16 @@
       <div class="Creamtext" style= "display: none;">
         <p>size:<br>body:<br></p>
       </div>
-      
-      <img id="imgleft"  src="image/image1.jpg"  >
+      <a href=""> <img id="imgleft"  src="image/image1.jpg"  ></a>
+     
       <p><a href="">Cream Series</a></p>
     </div>
      <div class="imgbox1">
-      <img id="imgleft"  src="image/image1.jpg" >
+      <a href=""><img id="imgleft"  src="image/image10.jpeg" ></a>
       <p><a href="">Topaz Series</a></p>
     </div>
      <div class="imgbox1">
-      <img id="imgleft"  src="image/image1.jpg" >
+      <a href=""> <img id="imgleft"  src="image/image16.jpeg" ></a>
       <p><a href="">Jumbo Series</a></p>
     </div>
   
